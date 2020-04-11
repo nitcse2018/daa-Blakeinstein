@@ -39,4 +39,4 @@ if __name__ == "__main__":
 		[200, 100],
 	]
 	#print the maximum possible value	
- 	print (knapSack(350, itemList, len(itemList)))
+	print (knapSack(350, itemList, len(itemList)))
