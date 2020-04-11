@@ -26,7 +26,9 @@ def knapSack(W, itemList, n):
 		return max(itemList[n-1][0] + knapSack(W-itemList[n-1][1], itemList, n-1), 
 				knapSack(W, itemList, n-1)) 
 
+#Test code
 if __name__ == "__main__": 
+	# Define List of items as a 2-D array 
 	itemList = [
 		[30, 10],
 		[55, 20],
@@ -35,5 +37,6 @@ if __name__ == "__main__":
 		[110, 50],
 		[140, 70],
 		[200, 100],
-		]
-	print (knapSack(350, itemList, len(itemList))
+	]
+	#print the maximum possible value	
+ 	print (knapSack(350, itemList, len(itemList)))
