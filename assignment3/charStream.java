@@ -19,7 +19,7 @@ class charStream{
         }
         finally{
             if (file != null) file.close();
-            if (output != null) output.close()
+            if (output != null) output.close();
         }
     }
 }
